@@ -304,7 +304,7 @@ const techQuestions = [
     },
     {
         question: "What do you look for when reviewing your team members' code?",
-        answer: ""   
+        answer: "Establish a background context and understand the purpose of the code. Make sure I am familair with the language and software tools before inspecting the code. I would check that the author has used appropriate naming conventions and has DRY principles. I would ensure that the code accounts for error-handling and compiles without errors. I would look for comments to clarify code readability and compare it with other code sections of the product to maintain consistency. I would make sure that any feedback I give the author afterwards is concise and constructive, outline any adjustments advisories."   
     },
     {
         question: "What is the benefit of designing scalable applications and how is it done?",
@@ -320,15 +320,15 @@ const techQuestions = [
     },
     {
         question: "What is meant by object-oriented programming?",
-        answer: ""   
+        answer: "Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior. OOP focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. This approach to programming is well-suited for programs that are large, complex and actively updated or maintained. This includes programs for manufacturing and design, as well as mobile applications; for example, OOP can be used for manufacturing system simulation software. The organization of an object-oriented program also makes the method beneficial to collaborative development, where projects are divided into groups. Additional benefits of OOP include code reusability, scalability and efficiency. The first step in OOP is to collect all of the objects a programmer wants to manipulate and identify how they relate to each other -- an exercise known as data modeling. Examples of an object can range from physical entities, such as a human being who is described by properties like name and address, to small computer programs, such as widgets. Once an object is known, it is labeled with a class of objects that defines the kind of data it contains and any logic sequences that can manipulate it. Each distinct logic sequence is known as a method. Objects can communicate with well-defined interfaces called messages."   
     },
     {
         question: "Explain the differences between Front End and Back End Development.",
-        answer: ""   
+        answer: "Front-end development focuses on the visual aspects of a website – the part that users see and interact with. Back-end development comprises a site's structure, system, data, and logic. There are three people in any Web Development team. Front End Developer - Let's call him John, Back End Developer - Let's call him Dave. Web Designer - Let's call him Leo. John codes what you see on your screen when you visit a website. This includes the buttons, text fields, forms and animations. John doesn't design the website. He doesn't choose the colors and the layout to use.  Leo does.  Leo creates a design for pages in an image format, and then John converts that image into live a page with code. Dave's code handles all the data that is required by the application. If John, Dave and Leo create a registration page for their website, here's what the process will look like: Leo creates a design with a tool like Adobe Photoshop or Adobe InDesign.This design is currently in Image format and is non-interactive. You cannot click any of the buttons or interact with the forms. Leo, the Web Designer, sends this image file to the Front End Developer, John. Now, John writes code that builds a real page that looks just like the one in the image. At this stage, the page has a form that can be submitted, but if a user tries to submit the form, the data goes nowhere. This is where Dave, the Back-End Developer, comes in. He writes some magical code that handles all the data that comes from the user when she submits the form. Dave's code validates the data for errors like invalid email, empty password field, etc. If Dave's code finds no validation errors in the data, the data is stored in the database. Now, the user is able to login to the website. The same process is followed for every page of a website."   
     },
     {
         question: "Describe how you would plan a new software project.",
-        answer: ""
+        answer: "I would start by defining and analysing the project's scope in terms of the proposed functional and non-functional requirements. I would take into account any budgets and constraints as well as assign roles to team members, if any. I would break down the meain components of the program into small, manageable sections, isolating tasks within the project. I would design time-based objectives to plan coding, I would start by implementing psuedocode and using step-wise refinement to add depth to the algorithm before beginning to code, making any adjustments to ensure success. "
     }
 ];
 

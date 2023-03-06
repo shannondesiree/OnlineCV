@@ -36,9 +36,14 @@
           <p>Remaining questions: <span id="counterW"></span> / <span id="lengthW">26</span></p>
           <p id="questionW">Click on the button to reveal a wildcard question and my answer to it!</p>
           <br>
-          <h3>Answer:</h3>
+          <div class="container mt-5 p-8" style="height:300px;">
+            <h3>Answer:</h3>
           <p id="answerW"></p>
-          <button onclick="changeQuestion(wildQuestions, questionWild, answerWild, counterWild)">Next Question</button>
+          </div>
+          <div style="text-align:center;">
+            <button onclick="changeQuestion(wildQuestions, questionWild, answerWild, counterWild)">Next Question</button>
+          </div>
+          
           <div class="mt-5 p-4 bg-primary text-white text-center">
             <a href="index.html" style="color:white;">Home</a>
           </div>

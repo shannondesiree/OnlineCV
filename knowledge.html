@@ -36,9 +36,13 @@
           <p>Remaining questions: <span id="counterK"></span> / <span id="lengthK">20</span></p>
           <p id="questionK">Click on the button to reveal a knowledge question and my answer to it!</p>
           <br>
-          <h3>Answer:</h3>
+          <div class="container mt-5 p-8" style="height:300px;">
+            <h3>Answer:</h3>
           <p id="answerK"></p>
-          <button id="buttonK" onclick="changeQuestion(knowledgeQuestions, questionKnow, answerKnow, counterKnow);">Next Question</button>
+          </div>
+          <div style="text-align:center;">
+            <button id="buttonK" onclick="changeQuestion(knowledgeQuestions, questionKnow, answerKnow, counterKnow);">Next Question</button>
+          </div>
           <div class="mt-5 p-4 bg-primary text-white text-center">
             <a href="index.html" style="color:white;">Home</a>
           </div>
