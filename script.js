@@ -79,23 +79,289 @@ const knowledgeQuestions = [
     {
         question: "Can you enumerate some coding best practices?",
         answer: "Following are some coding best practices to make programming efficient: Abide by the DRY principle. Follow some easy-to-remember naming convention. Keep the code as straightforward as possible. Limit the length of a line of code. Use comments frequently. Use consistent indentation. Whenever and wherever possible, avoid deep nesting."
+    }
+];
+
+const behavQuestions = [
+    {
+        question: "Describe a time you have had to work at pace",
+        answer: "Working at pace comes naturally me to an effiecient worker and believer of success with hard work. As a teacher of secondary science, I was responsible for delivering lessons with key content in a limited amount of time. In addition, I needed to relay this knowledge in a way that was understandable, fun and ultimately meaningful to the pupils. I planned lessons in advance in my diary to keep on top of each course syllabus and recycled teaching materials from colleagues to allow more time for planning the important aspects of the lesson over creating new teaching material from scratch. For junior pupils, biology and other specialty science teachers were reponsible for teaching non-specialty subjects including physics and chemistry. For this, it was even more important that I plan lessons ahead to ensure knowledge embedment within a limited time frame."
+    },
+    {
+        question: "Describe a time you dealt with conflict", 
+        answer: "In both my teaching and managerial roles, I have had experience of dealing with conflict in different situations. For example, as teacher I observed and resolved conflict among pupils in my classes. It wasn't uncommon and I researched behaviour management tactics, implemented school rules and liaisied with fellow staff. Most of the time, listening to students was the key to resolving conflict and as someone who prides themself being an open listener, I used pupil voice to reduce tension. My efforts to build strong relationships with pupils came in handy for these types of situation and after some give and take and comprimising, peace was usually restored."
+    },
+    {
+        question: "Describe a project you worked on as part of a team", 
+        answer: ""
+    },
+    {
+        question: "Tell me about a time you went above and beyond for work.", 
+        answer: ""
+    },
+    {
+        question: "Tell me about a time you made a great presentation.", 
+        answer: ""
+    },
+    {
+        question: "Describe your biggest work failure. How did you handle it?", 
+        answer: ""
+    },
+    {
+        question: "Tell me about a time you used written communication skills.", 
+        answer: ""
+    },
+    {
+        question: "Describe a situation where you needed information from a coworker who was slow to respond. What did you do?", 
+        answer: ""
+    },
+    {
+        question: "Tell me about a tough challenge you faced. How did you solve it?", 
+        answer: ""
+    },
+    {
+        question: "Describe a situation where you used Photoshop to complete a project", 
+        answer: ""
+    },
+    {
+        question: "Describe a time when you had too many to do items on your list. How did you solve the problem?", 
+        answer: ""
+    },
+    {
+        question: "Tell me about a long-running project you handled. How did you manage your time to meet your deadlines?", 
+        answer: ""
+    },
+    {
+        question: "Tell me about a time your workload was very heavy.", 
+        answer: ""
+    },
+    {
+        question: "Describe a situation where you had to make a good impression on a customer. How did you do it?", 
+        answer: ""
+    },
+    {
+        question: "Tell me about a time you had to work with an important customer or a difficult manager.", 
+        answer: ""
+    },
+    {
+        question: "Tell me about a time you had to collaborate with a coworker who was tough to please.", 
+        answer: ""
+    },
+    {
+        question: "Describe a situation where you saw a problem and took steps to fix it.", 
+        answer: ""
+    },
+    {
+        question: "Describe a time you demonstrated leadership.",
+        answer: ""   
+    },
+    {
+        question: "Tell me about a time you reached a big goal at work. How did you reach it?", 
+        answer: ""
+    },
+    {
+        question: "Describe a situation where you weren’t satisfied with your job. What could have made it better?", 
+        answer: ""
+    },
+    {
+        question: "Tell me about a time you had to choose something else over doing a good job.", 
+        answer: ""
+    },
+    {
+        question: "How have you demonstrated self-development in a previous role?",
+        answer: ""   
+    },
+    {
+        question: "Describe a time you experienced change.",
+        answer: ""   
+    }
+];
+
+const wildQuestions = [
+    {
+        question: "Why are you choosing a career in Software Development?",
+        answer: ""
+    },
+    {
+        question: "Where do you see yourself in five years time?",
+        answer: ""
+    },
+    {
+        question: "What motivates you?",
+        answer: ""
+    },
+    {
+        question: "How do you handle stress and pressure at work?",
+        answer: ""   
+    },
+    {
+        question: "What makes a good software engineer?",
+        answer: ""   
+    },
+    {
+        question: "Tell us about yourself and your experience.",
+        answer: ""   
+    },
+    {
+        question: "Do you prefer to work in a startup or established company?",
+        answer: ""   
+    },
+    {
+        question: "What are your strengths?",
+        answer: ""   
+    },
+    {
+        question: "What are your weaknesses?",
+        answer: ""   
+    },
+    {
+        question: "What is your proudest achievement?",
+        answer: ""
+    },
+    {
+        question: "Who inspires you?",
+        answer: ""
+    },
+    {
+        question: "What makes you think you will be a good fit in this role?",
+        answer: ""
+    },
+    {
+        question: "How do you spend time outside of work?",
+        answer: ""   
+    },
+    {
+        question: "Why do you want to be a software engineer?",
+        answer: ""   
+    },
+    {
+        question: "Describe a project you worked on and the difficulties you faced.",
+        answer: ""   
+    },
+    {
+        question: "Describe the differences between SQL and Java",
+        answer: ""   
+    },
+    {
+        question: "How do you keep up with current technological trends and news?",
+        answer: ""   
     },
 ];
 
-function changeQuestion() {
-    var questionText = document.getElementById("question");
-    var answerText = document.getElementById("answer");
-    if (knowledgeQuestions.length === 0) {
-        questionText.textContent = 'No more questions.';
+const techQuestions = [
+    {
+        question: "How did your education prepare you for this job?",
+        answer: ""
+    },
+    {
+        question: "How would you rate your key competencies for this job?",
+        answer: ""
+    },
+    {
+        question: "What are your IT strengths and weaknesses?",
+        answer: ""
+    },
+    {
+        question: "How do you ensure there are no bugs in your code?",
+        answer: ""   
+    },
+    {
+        question: "What do you look for when reviewing your team members' code?",
+        answer: ""   
+    },
+    {
+        question: "What is the benefit of designing scalable applications and how is it done?",
+        answer: ""   
+    },
+    {
+        question: "Describe the differences between the waterfall SDLC and agile.",
+        answer: ""   
+    },
+    {
+        question: "Describe a programming concept in Laymen's terms as though it is to someone who is not technical.",
+        answer: ""   
+    },
+    {
+        question: "What is meant by object-oriented programming?",
+        answer: ""   
+    },
+    {
+        question: "Explain the differences between Front End and Back End Development.",
+        answer: ""   
+    },
+    {
+        question: "Describe how you would plan a new software project.",
+        answer: ""
+    },
+    {
+        question: "Tell me about a fictional character that best describes you.",
+        answer: ""
+    },
+    {
+        question: "If someone wrote a book about you, what would the title be?",
+        answer: ""
+    },
+    {
+        question: "What are your hobbies?",
+        answer: ""   
+    },
+    {
+        question: "What was your highlight of 2022?",
+        answer: ""   
+    },
+    {
+        question: "If you won $20 million in the lottery, what would you do with the money?",
+        answer: ""   
+    },
+    {
+        question: "List 3 words that describe your character.",
+        answer: ""   
+    },
+    {
+        question: "What are your upcoming goals?",
+        answer: ""   
+    },
+    {
+        question: "How do you handle situations and environments you are not familair with?",
+        answer: ""   
+    },
+    {
+        question: "Tell me something interesting about you.",
+        answer: ""   
+    },
+];
+
+const buttonBehav = document.getElementById("buttonB");
+const buttonWild = document.getElementById("buttonW");
+const buttonKnow = document.getElementById("buttonK");
+const buttonTech = document.getElementById("buttonT");
+
+const answerBehav = document.getElementById("answerB");
+const answerWild = document.getElementById("answerW");
+const answerKnow = document.getElementById("answerK");
+const answerTech = document.getElementById("answerT");
+
+const questionBehav = document.getElementById("questionB");
+const questionWild = document.getElementById("questionW");
+const questionKnow = document.getElementById("questionK");
+const questionTech = document.getElementById("questionT");
+
+function changeQuestion(questionArray, questionText, answerText) {
+    // var questionText = document.getElementByClassName("question");
+    // var answerText = document.getElementByClassName("answer");
+    if (questionArray.length === 0) {
+        questionText.innerHTML = 'No more questions.';
         answerText.innerHTML = "";
         return;
     }
     
-    const randomIndex = Math.floor(Math.random() * knowledgeQuestions.length);
-    const randomQuestion = knowledgeQuestions[randomIndex].question;
-    const findAnswer = knowledgeQuestions[randomIndex].answer;
+    const randomIndex = Math.floor(Math.random() * questionArray.length);
+    const randomQuestion = questionArray[randomIndex].question;
+    const findAnswer = questionArray[randomIndex].answer;
     questionText.innerHTML = randomQuestion;
     answerText.innerHTML = findAnswer;
 
-    knowledgeQuestions.splice(randomIndex, 1);
+    questionArray.splice(randomIndex, 1);
     }
+
+    // questionSitch

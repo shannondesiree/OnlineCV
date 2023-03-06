@@ -26,18 +26,18 @@
                   <a class="nav-link" href="employment.html">Employment History</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="interview.html">Interview Questions - Knowledge</a>
+                    <a class="nav-link active" href="interview.html" id="interviewTab">Interview Questions - Knowledge</a>
                 </li>
               </ul>
             </div>
           </nav>
 
           <p>Question:</p>
-          <p id="question">Click to reveal a question!</p>
+          <p id="questionK">Click on the button to reveal a knowledge question and my answer to it!</p>
           <br>
           <p>Answer:</p>
-          <p id="answer"></p>
-          <button id="newQuestionButton" onclick="changeQuestion()">Next Question</button>
+          <p id="answerK"></p>
+          <button id="buttonK" onclick="changeQuestion(knowledgeQuestions, questionKnow, answerKnow)">Next Question</button>
           <div class="mt-5 p-4 bg-primary text-white text-center">
             <a href="index.html" style="color:white;">Home</a>
           </div>
