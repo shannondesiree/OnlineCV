@@ -14,34 +14,16 @@ const knowledgeQuestions = [
     }
 ];
 
-// const questionText = document.querySelector("#question");
-// const answerText = document.querySelector("#answer");
-
-/* newQuestion.addEventListener('click', function() {
+function changeQuestion() {
+    var questionText = document.getElementById("question");
     if (knowledgeQuestions.length === 0) {
-        questionText.innerHTML = 'No more questions.';
+        questionText.textContent = 'No more questions.';
         return;
-      } else {
-      const randomIndex = Math.floor(Math.random() * knowledgeQuestions.length);
-      const randomQuestion = knowledgeQuestions[randomIndex].question;
-      questionText.innerHTML = randomQuestion;
+    }
     
-      knowledgeQuestions.splice(randomIndex, 1);
-      }
-    }); */
+    const randomIndex = Math.floor(Math.random() * knowledgeQuestions.length);
+    const randomQuestion = knowledgeQuestions[randomIndex].question;
+    questionText.innerHTML = randomQuestion;
 
-const jsdom = require("jsdom");
-const { JSDOM } = jsdom;
-const dom = new JSDOM(`<!DOCTYPE html><html><body></body></html>`);
-const document = dom.window.document;
-
-const newQuestion = document.querySelector("#newQuestionButton");
-const questionText = document.getElementById("#question").innerHTML;
-console.log(questionText);
-
-// let questionText = document.querySelector("#question");
-  console.log(knowledgeQuestions[0].question);
-  console.log(knowledgeQuestions.length);
-  // console.log(randomQuestion);
-  // console.log(randomIndex);
-
+    knowledgeQuestions.splice(randomIndex, 1);
+    }
