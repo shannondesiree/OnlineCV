@@ -177,6 +177,7 @@ const behavQuestions = [
     }
 ];
 
+
 const wildQuestions = [
     {
         question: "Why are you choosing a career in Software Development?",
@@ -246,6 +247,42 @@ const wildQuestions = [
         question: "How do you keep up with current technological trends and news?",
         answer: ""   
     },
+    {
+        question: "Tell me about a fictional character that best describes you.",
+        answer: ""
+    },
+    {
+        question: "If someone wrote a book about you, what would the title be?",
+        answer: ""
+    },
+    {
+        question: "What are your hobbies?",
+        answer: ""   
+    },
+    {
+        question: "What was your highlight of 2022?",
+        answer: ""   
+    },
+    {
+        question: "If you won $20 million in the lottery, what would you do with the money?",
+        answer: ""   
+    },
+    {
+        question: "List 3 words that describe your character.",
+        answer: ""   
+    },
+    {
+        question: "What are your upcoming goals?",
+        answer: ""   
+    },
+    {
+        question: "How do you handle situations and environments you are not familair with?",
+        answer: ""   
+    },
+    {
+        question: "Tell me something interesting about you.",
+        answer: ""   
+    }
 ];
 
 const techQuestions = [
@@ -292,49 +329,9 @@ const techQuestions = [
     {
         question: "Describe how you would plan a new software project.",
         answer: ""
-    },
-    {
-        question: "Tell me about a fictional character that best describes you.",
-        answer: ""
-    },
-    {
-        question: "If someone wrote a book about you, what would the title be?",
-        answer: ""
-    },
-    {
-        question: "What are your hobbies?",
-        answer: ""   
-    },
-    {
-        question: "What was your highlight of 2022?",
-        answer: ""   
-    },
-    {
-        question: "If you won $20 million in the lottery, what would you do with the money?",
-        answer: ""   
-    },
-    {
-        question: "List 3 words that describe your character.",
-        answer: ""   
-    },
-    {
-        question: "What are your upcoming goals?",
-        answer: ""   
-    },
-    {
-        question: "How do you handle situations and environments you are not familair with?",
-        answer: ""   
-    },
-    {
-        question: "Tell me something interesting about you.",
-        answer: ""   
-    },
+    }
 ];
 
-const buttonBehav = document.getElementById("buttonB");
-const buttonWild = document.getElementById("buttonW");
-const buttonKnow = document.getElementById("buttonK");
-const buttonTech = document.getElementById("buttonT");
 
 const answerBehav = document.getElementById("answerB");
 const answerWild = document.getElementById("answerW");
@@ -346,9 +343,18 @@ const questionWild = document.getElementById("questionW");
 const questionKnow = document.getElementById("questionK");
 const questionTech = document.getElementById("questionT");
 
-function changeQuestion(questionArray, questionText, answerText) {
-    // var questionText = document.getElementByClassName("question");
-    // var answerText = document.getElementByClassName("answer");
+const counterBehav = document.getElementById("counterB");
+const counterKnow = document.getElementById("counterK");
+const counterTech = document.getElementById("counterT");
+const counterWild = document.getElementById("counterW");
+
+//const totalBehav = document.getElementById("lengthB");
+//const totalTech = document.getElementById("lengthT");
+//const totalWild = document.getElementById("lengthW");
+
+
+function changeQuestion(questionArray, questionText, answerText, counter) {
+    counter.textContent = questionArray.length;
     if (questionArray.length === 0) {
         questionText.innerHTML = 'No more questions.';
         answerText.innerHTML = "";
@@ -362,6 +368,6 @@ function changeQuestion(questionArray, questionText, answerText) {
     answerText.innerHTML = findAnswer;
 
     questionArray.splice(randomIndex, 1);
-    }
+    };
 
-    // questionSitch
+

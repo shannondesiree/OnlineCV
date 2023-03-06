@@ -32,12 +32,13 @@
             </div>
           </nav>
 
-          <p>Question:</p>
+          <h3>Question:</h3>
+          <p>Remaining questions: <span id="counterT"></span> / <span id="lengthT">11</span></p>
           <p id="questionT">Click on the button to reveal a technical question and my answer to it!</p>
           <br>
-          <p>Answer:</p>
+          <h3>Answer:</h3>
           <p id="answerT"></p>
-          <button id="buttonT" onclick="changeQuestion(techQuestions, questionTech, answerTech)">Next Question</button>
+          <button id="buttonT" onclick="changeQuestion(techQuestions, questionTech, answerTech, counterTech)">Next Question</button>
           <div class="mt-5 p-4 bg-primary text-white text-center">
             <a href="index.html" style="color:white;">Home</a>
           </div>
