@@ -97,11 +97,11 @@ const behavQuestions = [
     },
     {
         question: "Tell me about a time you went above and beyond for work.", 
-        answer: ""
+        answer: "As someone who is always looking for opportunities to grow professionally, I respond positively to increased workload and put 100% effort into everything I do. For example, as manager of a busy tattoo studio, I went the extra mile to savalge a situation that had a major financial impact on the daily running of the studio. Our long-term head piercer announced his leave which meant that weeks of piercing bookings were going to be lost affecting the company's income and reputation. I began with promoting our piercing course which was a 10-day course taught by our head piercer. With 4 weeks notice, we didn't have much time to train potential replacements. "
     },
     {
         question: "Tell me about a time you made a great presentation.", 
-        answer: ""
+        answer: "as a teacher, observed lesson was out of my control and fell on a physics lesson for broad general education (S1-S3) which was not my strong point as a biology teacher. This meant I had to ensure I was knowledgeable on lesson content and surrounding background to answer pupil questions sufficiently and deliver a clear and understandable lesson. Plan a lesson that hits all learning objects, incorporates a variety of pedagogical techniques, body language and class atmosphere is controlled and engaged. Encourage team working and fun formative assessments to enthuse pupils and embed learning. Scored highly on observed lesson and pupils were able to recall key points during plenary at the end of the lesson and during the recap at the beginning of the following lesson. "
     },
     {
         question: "Describe your biggest work failure. How did you handle it?", 
@@ -241,11 +241,11 @@ const wildQuestions = [
     },
     {
         question: "Describe the differences between SQL and Java",
-        answer: ""   
+        answer: "Java is a high-level programming language that is preferred by most of the developers to develop different programs that can run on windows. On the other side, SQL is the query language that deals with databases such as update, delete, manage are some features for which programmers use the SQL."   
     },
     {
         question: "How do you keep up with current technological trends and news?",
-        answer: ""   
+        answer: "Stack overflow, StackExchange, Quora"   
     },
     {
         question: "Tell me about a fictional character that best describes you.",
@@ -277,7 +277,7 @@ const wildQuestions = [
     },
     {
         question: "How do you handle situations and environments you are not familair with?",
-        answer: ""   
+        answer: "I try to be myself and observe my surroundings and colleagues to adapt faster and gain familiarity/experience. I ask questions and accept that I will likely make mistakes and try not to interpret too much."   
     },
     {
         question: "Tell me something interesting about you.",
@@ -300,7 +300,7 @@ const techQuestions = [
     },
     {
         question: "How do you ensure there are no bugs in your code?",
-        answer: ""   
+        answer: "I plan projects that can benefit from test-driven development which validates the expected results of each section before I move on to the next. I keep consistent with my syntax and use recognisable variable names. I divide my code and keep it simple for when I am writing and comment when appropriate. I establish code standards and make use of any existing libraries to make sure my code is succinct and efficient to identify potential bugs more easily. I use build in debugging extentions in my IDE and employ the 'rubber duck' walkthrough method if necessary."   
     },
     {
         question: "What do you look for when reviewing your team members' code?",
@@ -308,15 +308,15 @@ const techQuestions = [
     },
     {
         question: "What is the benefit of designing scalable applications and how is it done?",
-        answer: ""   
+        answer: "Scalability has both long- and short-term benefits. At the outset it lets a company purchase only what they immediately need, not every feature that might be useful down the road. For example, a company launching a data intelligence pilot program could choose a massive enterprise analytics bundle, or they could start with a solution that just handles the functions they need at first. A popular choice is a dashboard that pulls in results from their primary data sources and existing enterprise software. When they grow large enough to use more analytics programs, those data streams can be added into the dashboard instead of forcing the company to juggle multiple visualization programs or build an entirely new system. Building this way prepares for future growth while creating a leaner product that suits current needs without extra complexity. It requires a lower up-front financial outlay, too, which is a major consideration for executives worried about the size of big data investments. Scalability also leaves room for changing priorities. That off-the-shelf analytics bundle could lose relevance as a company shifts to meet the demands of an evolving marketplace. Choosing scalable solutions protects the initial technology investment. Businesses can continue using the same software for longer because it was designed to be grow along with them. When it comes time to change, building onto solid, scalable software is considerably less expensive than trying to adapt less agile programs. There’s also a shorter “ramp up” time to bring new features online than to implement entirely new software. As a side benefit, staff won’t need much training or persuasion to adopt that upgraded system. They’re already familiar with the interface, so working with the additional features is viewed as a bonus rather than a chore."   
     },
     {
         question: "Describe the differences between the waterfall SDLC and agile.",
-        answer: ""   
+        answer: "Waterfall breaks down software development into isolated phases that flow into each other, while Agile advocates iterative development cycles in which multiple lifecycle phases can run in parallel. The waterfall is a regimented software development approach, while Agile is a dynamic software development strategy. Waterfall is particularly useful for small, well-planned physical projects and agile works well for large or complex software developments that may involve many team members."   
     },
     {
         question: "Describe a programming concept in Laymen's terms as though it is to someone who is not technical.",
-        answer: ""   
+        answer: "Programming is an attempt to create a representation of reality on the computer. There's a lot of tools and devices that exist that do this already -- think about how a spreadsheet makes it easier for us to represent accounting or statistics, or how a Powerpoint presentation allows us to store and display our presentations. Sometimes we need to build custom representations of reality into new or existing applications that reflect our business processes. There's lots of ways to program, and one of the most common ways to program is object oriented programming, where the code we build is specifically designed to replicate the concepts of reality. The 'things' in reality have attributes and behaviors. For instance, a human being often has arms and legs, hair color, ethnicity, and can often Speak and Walk.  Speaking and Walking can come in different varieties, such as what language one is speaking, or the speed or manner at which one is walking. Human Beings often have interactions with other types of "things," whether they be animals, other humans, other living organisms, or inanimate objects. There are themes in reality that often need a way to be represented, such as interactions between "things," categorization of things, etc. Consider business processes that go on in our organization. There exists very complicated 'business logic' that needs to get represented in the software that our organization uses. Object-Oriented programming provides a means to accurately represent these 'real world concepts' and 'business logic'."   
     },
     {
         question: "What is meant by object-oriented programming?",
