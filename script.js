@@ -181,15 +181,15 @@ const behavQuestions = [
 const wildQuestions = [
     {
         question: "Why are you choosing a career in Software Development?",
-        answer: ""
+        answer: "Software development is the right career choice for me because I believe it will marry the best of my strengths and fulfil my professional needs in terms of providing challenege, opportunities for growth and the chance to work on incredible, innovative products like artificial intelligence that will shape the future in the fastest growing industry in the world."
     },
     {
         question: "Where do you see yourself in five years time?",
-        answer: ""
+        answer: "5 years time is a long time and with my high expectations of myself, I would love to see me in ownership of at least two properties. I would love to have travelled parts of South America by then and be content with my pets and my family. In terms of work, I would love to be settled in a long-term position within a company that embraces my differences and brings out the best of me. For me, I think this is a realistic expectation."
     },
     {
         question: "What motivates you?",
-        answer: ""
+        answer: "I am motivated by my family and my goals in life. I've always enjoyed having something to work towards within different aspects of my life. For example, setting goals, writing to-do lists and seeing the bigger picture have allowed me to reach milestones faster and reflect on my progress. If I feel a goal is too difficult to reach, I will often break this down into smaller, more reachable targets and I apply this same process to my work to push through particularly challenging tasks and meeting deadlines on time."
     },
     {
         question: "How do you handle stress and pressure at work?",
@@ -316,7 +316,7 @@ const techQuestions = [
     },
     {
         question: "Describe a programming concept in Laymen's terms as though it is to someone who is not technical.",
-        answer: "Programming is an attempt to create a representation of reality on the computer. There's a lot of tools and devices that exist that do this already -- think about how a spreadsheet makes it easier for us to represent accounting or statistics, or how a Powerpoint presentation allows us to store and display our presentations. Sometimes we need to build custom representations of reality into new or existing applications that reflect our business processes. There's lots of ways to program, and one of the most common ways to program is object oriented programming, where the code we build is specifically designed to replicate the concepts of reality. The 'things' in reality have attributes and behaviors. For instance, a human being often has arms and legs, hair color, ethnicity, and can often Speak and Walk.  Speaking and Walking can come in different varieties, such as what language one is speaking, or the speed or manner at which one is walking. Human Beings often have interactions with other types of "things," whether they be animals, other humans, other living organisms, or inanimate objects. There are themes in reality that often need a way to be represented, such as interactions between "things," categorization of things, etc. Consider business processes that go on in our organization. There exists very complicated 'business logic' that needs to get represented in the software that our organization uses. Object-Oriented programming provides a means to accurately represent these 'real world concepts' and 'business logic'."   
+        answer: "Programming is an attempt to create a representation of reality on the computer. There's a lot of tools and devices that exist that do this already -- think about how a spreadsheet makes it easier for us to represent accounting or statistics, or how a Powerpoint presentation allows us to store and display our presentations. Sometimes we need to build custom representations of reality into new or existing applications that reflect our business processes. There's lots of ways to program, and one of the most common ways to program is object oriented programming, where the code we build is specifically designed to replicate the concepts of reality. The 'things' in reality have attributes and behaviors. For instance, a human being often has arms and legs, hair color, ethnicity, and can often Speak and Walk.  Speaking and Walking can come in different varieties, such as what language one is speaking, or the speed or manner at which one is walking. Human Beings often have interactions with other types of 'things', whether they be animals, other humans, other living organisms, or inanimate objects. There are themes in reality that often need a way to be represented, such as interactions between 'things', categorization of things, etc. Consider business processes that go on in our organization. There exists very complicated 'business logic' that needs to get represented in the software that our organization uses. Object-Oriented programming provides a means to accurately represent these 'real world concepts' and 'business logic'."   
     },
     {
         question: "What is meant by object-oriented programming?",
