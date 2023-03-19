@@ -117,11 +117,11 @@ const behavQuestions = [
     },
     {
         question: "Tell me about a tough challenge you faced. How did you solve it?", 
-        answer: ""
+        answer: "As a teacher, I was faced with challenges daily depending on my pupils and how they were all feeling that day. I had some particularly tough students that projected during class making embedding learning difficult. "
     },
     {
         question: "Describe a situation where you used Photoshop to complete a project", 
-        answer: ""
+        answer: "I often practice photo-editing as part of my wildlife photography hobby which came in esepcially useful during my time as a marine wildlife guide with SeaLife Adventures. Here, I presented talks on a variety of spotted wildlife whilst on board a small boat for 3, 4 and 5 hour tourism excursions in the Inner Hebrides. When we weren't out on a trip, I was occassionally required to edit some of the pictures that had been taken from our recent trips. For this, we used Adobe Photoshop Lightroom which worked perfect for our intended use and using the raw images I was able to colour-correct, crop and bring out the best of the animal in the picture. This helped towards social media marketing projects, petitions we were passionate about and important wildlife monitoring and recording purposes."
     },
     {
         question: "Describe a time when you had too many to do items on your list. How did you solve the problem?", 
@@ -161,7 +161,7 @@ const behavQuestions = [
     },
     {
         question: "Describe a situation where you weren’t satisfied with your job. What could have made it better?", 
-        answer: ""
+        answer: "As a perfectionist, it can be hard for me to take a step back from the small details to envision the bigger picture and I actively remind myself of the end goal to keep witihn timelines. This part of me made my role as an educator challenging in the sense that ensuring all relevent information is delivered in each lesson with the limitied 50 minutes duration. Initially, there were oftentimes I ran over lessons and in trying to correct this, there were even occasions where lessons fell short and I would be forced to think of a quick time burning task on the spot.   "
     },
     {
         question: "Tell me about a time you had to choose something else over doing a good job.", 
@@ -169,11 +169,11 @@ const behavQuestions = [
     },
     {
         question: "How have you demonstrated self-development in a previous role?",
-        answer: ""   
+        answer: "Mentor meetings as NQT(Newly-Qualified Teacher) involved reflecting on lessons and lesson planning, lesson content and pedagogy techniques. How to improve teaching and embed learning within pupils. This also involved interview training and allowed me to practice metacognition myself in thinking about my own learning path to becoming a great educator. I took notes to remind myself of my own strengths and areas for development and found ways to implement them in the classroom for the benefit of the learners and my teaching career."   
     },
     {
         question: "Describe a time you experienced change.",
-        answer: ""   
+        answer: "Change for me is important because it allows for adaptation, specialisation and evolution but I don't deny that it doesn't come with its own concerns. When I worked as a manager of a tattoo studio, the shop in Glasgow was unable to meet it's full demand and therefore potential and the company owner decided to open a second studio around the corner to maintain the demand from the client base. After the building had been renovated and was fit for purpose, the artists had proposed an initial idea of having the second, and smaller studio, as a workplace for the artists who specialised in the black and grey realistic style - since it was this style that was causing the demand, the tattoos in this style were all generally full day sessions and would all take the same timeframe to complete in most cases and since "   
     }
 ];
 
@@ -221,15 +221,15 @@ const wildQuestions = [
     },
     {
         question: "Who inspires you?",
-        answer: ""
+        answer: "My family inspire me. I don't have the best or most affectionate relationship with my parents and siblings but they have never made me feel like I am not capable of something and have always believed in me and my dreams. As I've gotten older, I have become more appreciative of the sacrifices they have made for me and I realise that they did their very best to give me the life I deserve, despite our adverse background and cultural stigma. I'm fortunate to say that my parents give me strength and hope because I know that doesn't apply for everybody and I am proud to have such a inspirational family."
     },
     {
         question: "What makes you think you will be a good fit in this role?",
-        answer: ""
+        answer: "I think I would work great as a Software Developer because I have spent the last 8 months or so soaking in every piece of information I can with limitless online learning tools and rescources. I discovered this would be the ideal career for me if there ever was one, because I believe I can learn the required knowledge but mostly becasue I believe I have the right mindset for this kind of work. Not only do I work smoothly in a team setting, but I am naturally a logical diagnostition where problem-solving has been my talent consistently throughout my previou sprofessional roles and within my personal life. I understand technoology and admire the industry. I have the hunger, willpower and ideal characteristics that will see me go far, just as I have done in prior workplaces."
     },
     {
         question: "How do you spend time outside of work?",
-        answer: ""   
+        answer: "Outside of work, I like to keep active and social, spedning time with my family and friends when I can. I enjoy dancing and maintiaining a healthy lifestyle as well as being outdoors with my camera in all weathers. I really enjoy learning new things - especially anything science, language or psychology-related. I enjoy watching TedTalks, listening to podcasts and attending relevant shows, conventions and exhibitions when I can. This year, I'd like to attend an airshow and have a planned trip to the Shetland Isles in an attempt to photograph wild Orcas this Summer, which I am really excited for!"   
     },
     {
         question: "Why do you want to be a software engineer?",
@@ -281,14 +281,14 @@ const wildQuestions = [
     },
     {
         question: "Tell me something interesting about you.",
-        answer: ""   
+        answer: "I consider myself very much an open book and will happily talk about the experiences that make me who I am. "   
     }
 ];
 
 const techQuestions = [
     {
         question: "How did your education prepare you for this job?",
-        answer: ""
+        answer: "I've set myself different short and long-term objectives in preparattion for this job. For example, I know Rome wasn't built in a day and there was no way I would be able to grasp the concepts of programming overnight having no prior experience or training. I devoted a timeline from August 2022 to study and research and I spent hours practicing with tutorials, threads, blogs and online courses. I completed Harvard's CS50: Intro to Computer Science which introduced me to the fundamentals of programming and lessons on languages including C, Python, JavaScript and HTML as well as practice in SQL, PHP and CSS. I was able to secure a formal qualification in March 2023 shortly after when I attended the PDA (Professional Development Award) in Software Development SCQF Level 7 at Glasgow Clyde college where I was able to explore the background, history and planning of programming with opportunities to expand my lnaguage library to Java."
     },
     {
         question: "How would you rate your key competencies for this job?",
